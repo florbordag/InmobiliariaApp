@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/tvIniContrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="FECHA INICIO"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/imagContra"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/etIniContrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvIniContrato"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <TextView
+        android:id="@+id/tvFinContrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="FECHA FIN"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/etIniContrato"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-66dp" />
+
+    <TextView
+        android:id="@+id/etFinContrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvFinContrato"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <TextView
+        android:id="@+id/tvPrecioContrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="PRECIO"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/etFinContrato"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/etPrecioContrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrecioContrato"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imagContra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8conclusioncontract64"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
